@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Quicksand:wght@300;400;600&display=swap");
+.container-accueil {
+  margin: auto;
+  text-align: center;
+}
+
 main {
   height: 90%;
   width: 100%;
@@ -537,6 +542,22 @@ h3 {
   color: white;
 }
 
+.sharing-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(56, 56, 56, 0.7);
+  z-index: 9;
+}
+
 .col-container {
   display: flex;
 }
@@ -709,6 +730,11 @@ header nav ul li a::before {
 header nav ul li a:hover::before {
   width: 100%;
   transition: all 0.3s;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px 0;
 }
 
 /*# sourceMappingURL=style-principal.css.map */
